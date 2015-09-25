@@ -1,0 +1,20 @@
+section{
+	height:760px;
+	width: 100%;
+}
+.servicios{
+	background-color: skyblue;
+
+}
+.otros{
+	background-color: black;
+}
+.nosotros{
+	background-color: yellow;
+}
+.contacto{
+	background-color: red;
+}
+.empresa{
+	background-color: blue;
+}

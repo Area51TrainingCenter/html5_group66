@@ -1,0 +1,64 @@
+.container
+{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.menu li{
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	/*padding: 10px ;*/
+	/*padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	padding-right: 15px;*/
+	padding:10px 25px;
+}
+
+.slider{
+	width: 1024px;
+	height: 500px;
+	background-color: orange;
+	padding: 30px;
+}
+.sec-items{
+	text-align: center;
+}
+.item{
+	width: 240px;
+	height: 240px;
+	background-color: green;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.secc1{
+	width: 330px;
+	height: 500px;
+	background-color: red;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.secc2{
+	width: 330px;
+	height: 500px;
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.secc3{
+	width: 330px;
+	height: 500px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+}
+.center{
+	text-align: center;
+	margin-top: 10px;
+}

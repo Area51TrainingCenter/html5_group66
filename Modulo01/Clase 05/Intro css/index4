@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+
+	<body>
+		<article>
+		<img src="http://cde.americatv.com.pe/ima/0/0/0/9/7/97353/295x185.jpg">
+		<span>Categoria</span>
+		<span>Lo ultimo</span>
+		<h2>Titulo a 3 <br>lineas <br></h2>
+		<time datetime="2015-10-10T21:45:10"> hace 3 minutos</time>
+		</article>
+	</body>
+
+</html>

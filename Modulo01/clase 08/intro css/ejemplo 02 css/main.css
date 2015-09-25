@@ -1,0 +1,44 @@
+body{
+	font-family: arial;
+	
+}
+.titulo{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: black;
+
+	text-align: center;
+}
+
+.ui-img-articulo{
+	width: 500px;
+
+}
+.ui-parrafo{
+	font-size: 40px;
+	/*font-weight: bold;*/
+	color: black;
+	
+	/*text-align: left;*/
+	/* line -height sirve para la separacion de lineas de texto*/
+	line-height: 1.6;
+	/* word-spacing sirve para la separacion de palabras */
+	word-spacing: 5px;
+	/* letter -spacing sirve para la separacion de letras */
+	letter-spacing: 2px;
+	font-style:italic;
+
+	text-indent: 99px;
+}
+
+.firtLetter{
+	font-size: 80px;
+	color: black;
+}
+
+.facebook{
+	font-size: 60px;
+	text-indent: -300px;
+}

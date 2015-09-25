@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<ul class="menu">
+					<li class="top-actualidad">Actualidad</li>
+					<li class="top-opinion">Opinion</li>
+					<li class="top-politica">Politica</li>
+					<li class="top-cultura">Cultura</li>
+					
+					
+				</ul>
+			</nav>
+		</header>
+
+		<section class="sec-noticias">
+			<p>este es un texto de la seccion noticias</p>
+		</section>
+		<section class="sec-deporte">
+		</section>
+	</div>
+</body>
+</html>
+<style>
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;/* prefijo para mozilla */
+	-webkit-box-sizing:border-box; /* prefijo para motor de chrome y safari*/
+	-ms-box-sizing:border-box;/* prefijo para motor de internet explorer */
+	-o-box-sizing:border-box; /*prefijo para motor de opera */
+
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+.menu{background-color: black;}
+.menu li{
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	padding: 10px 20px;
+	font-family: arial;
+	margin-left: -10px
+}
+.sec-noticias{
+	width: 505px;
+	height: 500px;
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 150px;
+	
+	border :20px dotted red;
+}
+.sec-deporte{
+	width: 505px;
+	height: 500px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.top-actualidad{border-top:3px solid skyblue }
+.top-opinion{border-top:3px solid blue }
+.top-politica{border-top:3px solid orange }
+.top-cultura{border-top:3px solid red }
+</style>
+
+

@@ -1,0 +1,42 @@
+body{
+	font-family: arial;
+	background-color: orange
+}
+.titulo{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: black;
+
+	text-align: center;
+}
+
+.ui-img-articulo{
+	width: 500px;
+
+}
+.ui-parrafo{
+	font-size: 18px;
+	/*font-weight: bold;*/
+	color: white;
+	background-color: black;
+	text-align: justify;
+	line-height: 50px;
+}
+
+.lista-elementos{
+list-style-type: none;
+color: white;
+background-color: black;
+
+}
+
+.elementos-ordenados{
+	/*list-style-type: decimal-leading-zero;*/
+	list-style-type: none;
+	/*list-style: url("sqpurple.gif");*/
+	background-color: black;
+	color: white;
+	text-align: right;
+}

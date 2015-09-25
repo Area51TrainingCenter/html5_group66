@@ -1,0 +1,19 @@
+
+.menu-site{
+	background-color: black;
+	color: white;
+	
+	font-family: arial;
+	font-size: 18px;
+	list-style-type: none;
+}
+
+.menu-site li{
+	display: inline;
+	background-color: blue;
+	
+
+
+}
+
+
