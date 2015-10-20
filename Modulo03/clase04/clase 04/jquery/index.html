@@ -1,0 +1,115 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="jquery.js"></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<section class="bloque base1">
+			
+			<div class="opciones">
+				<span id="opc-1" class="opc-a"></span>
+				<span id="opc-2" class="opc-b"></span>
+				<span id="opc-3" class="opc-c"></span>
+			</div>
+		</section>
+		
+		
+	</div>
+
+</body>
+</html>
+<script type="text/javascript">
+/*	
+document.getElementById('opc-1').addEventListener("click",alerta)
+function alerta(){
+	alert("hizo click");
+}*/
+
+
+$("#opc-1").mouseenter(cambio1);
+
+$("#opc-2").mouseenter(cambio2);
+
+$("#opc-3").mouseenter(cambio3);
+
+function cambio1(){
+$(".bloque").removeClass("base2");
+$(".bloque").removeClass("base3");
+$(".bloque").addClass("base1");
+
+}
+
+function cambio2(){
+$(".bloque").removeClass("base1");
+$(".bloque").removeClass("base3");
+$(".bloque").addClass("base2");
+
+}
+
+function cambio3(){
+$(".bloque").removeClass("base1");
+$(".bloque").removeClass("base2");
+
+$(".bloque").addClass("base3");
+}
+
+
+
+
+
+</script>
+<style type="text/css">
+.bloque{
+	height: 500px;
+	
+	
+	position: relative;
+}
+
+.base1
+{
+	background:url("bg07.jpg");
+	background-size: cover;
+}
+
+.base2
+{
+	background:url("bg08.jpg");
+	background-size: cover;
+}
+
+.base3
+{
+	background:url("bg09.jpg");
+	background-size: cover;
+}
+.opciones span{
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-webkit-border-radius: 50%;
+margin: 0px 40px;}
+.opciones{
+	position: absolute;
+	bottom: 0px;text-align: center;
+	width: 100%;
+}
+.opc-a{width: 150px;height: 150px;
+	/*background-color: rgba(255, 0, 0, 0.39);*/
+		background:url("bg07.jpg");
+	background-size: cover;
+	display: inline-block;}
+.opc-b{width: 150px;height: 150px;
+	/*background-color: rgba(255, 255, 0, 0.39);*/
+		background:url("bg08.jpg");
+	background-size: cover;
+	display: inline-block;}
+.opc-c{width: 150px;height: 150px;
+	/*background-color: rgba(195, 255, 0, 0.39);*/
+		background:url("bg09.jpg");
+	background-size: cover;
+	display: inline-block;}
+</style>

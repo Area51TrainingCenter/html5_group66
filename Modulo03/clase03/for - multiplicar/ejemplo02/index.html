@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<h1>Bienvenido : seleccion tu mes de nacimiento</h1>
+
+<form>
+<label>mes de nacimiento</label><br>
+	<select>
+		<script type="text/javascript">
+		for(var i=0;i<meses.length;i++){
+			document.write("<option>"+meses[i]+"</option>");
+		}
+		
+		</script>
+		
+	</select><br>
+
+	<label> dia de nacimento</label><br>
+	<select>
+		<script type="text/javascript">
+		for(var i=1;i<=31;i++){
+			document.write("<option>"+i+"</option>");
+		}
+		
+		</script>
+		
+	</select><br>
+
+	<label> año de nacimento</label><br>
+	<select>
+		<script type="text/javascript">
+		for(var i=2015;i>=1990;i--){
+			document.write("<option>"+i+"</option>");
+		}
+		
+		</script>
+		
+	</select><br>
+
+
+
+</form>
+
+</body>
+</html>

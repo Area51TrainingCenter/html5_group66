@@ -1,0 +1,11 @@
+sumar(3,5);
+sumar(10,10);
+sumar(8,10);
+sumar(18,29);
+sumar(30,5);
+restar(3,5);
+restar(10,10);
+restar(8,10);
+restar(18,29);
+restar(30,5);
+imprimir("bienvenido al mundo de las funciones");
